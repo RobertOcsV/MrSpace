@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MrSpace - Explore o futuro da tecnologia">
+    <title>MrSpace - Explore o Infinito Digital</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Stars Background -->
+    <div class="stars-container">
+        <div class="stars"></div>
+        <div class="stars2"></div>
+        <div class="stars3"></div>
+    </div>
+
+    <!-- Navegação -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <svg class="logo-icon" viewBox="0 0 50 50" fill="none">
+                    <circle cx="25" cy="25" r="20" stroke="currentColor" stroke-width="2"/>
+                    <path d="M25 15 L25 35 M15 25 L35 25" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="25" cy="25" r="3" fill="currentColor"/>
+                </svg>
+                <span class="logo-text">Mr<span class="logo-accent">Space</span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#mission" class="nav-link">Missão</a></li>
+                <li><a href="#technology" class="nav-link">Tecnologia</a></li>
+                <li><a href="#solutions" class="nav-link">Soluções</a></li>
+                <li><a href="contact.html" class="nav-link nav-cta">Contato</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="astronaut-float">
+                    <svg class="astronaut" viewBox="0 0 200 200" fill="none">
+                        <!-- Helmet -->
+                        <circle cx="100" cy="70" r="35" fill="rgba(139, 92, 246, 0.1)" stroke="url(#purpleGradient)" stroke-width="2"/>
+                        <ellipse cx="100" cy="70" rx="25" ry="20" fill="rgba(139, 92, 246, 0.2)"/>
+                        <!-- Body -->
+                        <rect x="80" y="100" width="40" height="50" rx="5" fill="rgba(139, 92, 246, 0.15)" stroke="url(#purpleGradient)" stroke-width="2"/>
+                        <!-- Arms -->
+                        <path d="M 80 110 L 60 120 L 55 130" stroke="url(#purpleGradient)" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M 120 110 L 140 120 L 145 130" stroke="url(#purpleGradient)" stroke-width="3" stroke-linecap="round"/>
+                        <!-- Legs -->
+                        <path d="M 90 150 L 85 175 L 80 180" stroke="url(#purpleGradient)" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M 110 150 L 115 175 L 120 180" stroke="url(#purpleGradient)" stroke-width="3" stroke-linecap="round"/>
+                        <defs>
+                            <linearGradient id="purpleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+
+                <h1 class="hero-title">
+                    <span class="line">Explore o</span>
+                    <span class="line accent-line">Infinito Digital</span>
+                </h1>
+                <p class="hero-subtitle">Navegue além dos limites convencionais com tecnologia de ponta que transforma visões em realidade cósmica</p>
+                <div class="hero-cta">
+                    <a href="#lead-form" class="btn btn-primary">
+                        <span>Iniciar Jornada</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="#mission" class="btn btn-secondary">Descobrir Mais</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-icon">🚀</span>
+                        <span class="stat-number" data-target="500">0</span>
+                        <span class="stat-label">Projetos Lançados</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-icon">⭐</span>
+                        <span class="stat-number" data-target="98">0</span>
+                        <span class="stat-label">% Satisfação</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-icon">🌍</span>
+                        <span class="stat-number" data-target="50">0</span>
+                        <span class="stat-label">Países Alcançados</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="planet planet-1"></div>
+                <div class="planet planet-2"></div>
+                <div class="orbit orbit-1"></div>
+                <div class="orbit orbit-2"></div>
+                <div class="orbit orbit-3"></div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>Explore</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section id="mission" class="mission">
+        <div class="container">
+            <div class="mission-content">
+                <div class="section-header">
+                    <span class="section-tag">Nossa Missão</span>
+                    <h2 class="section-title">Conquistando Novos Horizontes</h2>
+                    <p class="section-subtitle">Como astronautas explorando o desconhecido, navegamos pelo universo digital para criar soluções que transcendem o comum</p>
+                </div>
+
+                <div class="mission-grid">
+                    <div class="mission-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                                <path d="M2 17l10 5 10-5"/>
+                                <path d="M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <h3>Inovação Constante</h3>
+                        <p>Exploramos tecnologias emergentes para criar soluções que definem o futuro</p>
+                    </div>
+
+                    <div class="mission-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                        </div>
+                        <h3>Precisão Orbital</h3>
+                        <p>Cada detalhe calculado com exatidão astronômica para resultados perfeitos</p>
+                    </div>
+
+                    <div class="mission-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <h3>Equipe Espacial</h3>
+                        <p>Especialistas dedicados trabalhando em perfeita sincronização</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="technology" class="technology">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Tecnologia Avançada</span>
+                <h2 class="section-title">Propulsão Tecnológica</h2>
+            </div>
+
+            <div class="tech-showcase">
+                <div class="tech-visual">
+                    <div class="tech-circle">
+                        <div class="tech-ring ring-1"></div>
+                        <div class="tech-ring ring-2"></div>
+                        <div class="tech-ring ring-3"></div>
+                        <div class="tech-core"></div>
+                    </div>
+                </div>
+
+                <div class="tech-list">
+                    <div class="tech-item">
+                        <div class="tech-number">01</div>
+                        <div class="tech-content">
+                            <h3>Inteligência Artificial</h3>
+                            <p>Algoritmos avançados que aprendem e evoluem como organismos cósmicos</p>
+                        </div>
+                    </div>
+
+                    <div class="tech-item">
+                        <div class="tech-number">02</div>
+                        <div class="tech-content">
+                            <h3>Cloud Computing</h3>
+                            <p>Infraestrutura escalável que expande como o próprio universo</p>
+                        </div>
+                    </div>
+
+                    <div class="tech-item">
+                        <div class="tech-number">03</div>
+                        <div class="tech-content">
+                            <h3>Blockchain</h3>
+                            <p>Segurança impenetrável protegida por criptografia quântica</p>
+                        </div>
+                    </div>
+
+                    <div class="tech-item">
+                        <div class="tech-number">04</div>
+                        <div class="tech-content">
+                            <h3>IoT & Edge</h3>
+                            <p>Conexões que transcendem fronteiras físicas e digitais</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="solutions">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Soluções Estelares</span>
+                <h2 class="section-title">Sistemas Para Cada Galáxia</h2>
+            </div>
+
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <div class="solution-bg"></div>
+                    <div class="solution-icon">🛸</div>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Plataformas digitais que navegam além dos limites da web convencional</p>
+                    <ul class="solution-features">
+                        <li>Design Responsivo Intergaláctico</li>
+                        <li>Performance Supersônica</li>
+                        <li>SEO Otimizado para Universos</li>
+                    </ul>
+                </div>
+
+                <div class="solution-card">
+                    <div class="solution-bg"></div>
+                    <div class="solution-icon">🌌</div>
+                    <h3>Aplicativos Mobile</h3>
+                    <p>Experiências móveis que cabem no seu bolso mas alcançam as estrelas</p>
+                    <ul class="solution-features">
+                        <li>Interface Cósmica Intuitiva</li>
+                        <li>Sincronização em Tempo Real</li>
+                        <li>Offline-First Technology</li>
+                    </ul>
+                </div>
+
+                <div class="solution-card">
+                    <div class="solution-bg"></div>
+                    <div class="solution-icon">🔮</div>
+                    <h3>Consultoria Digital</h3>
+                    <p>Estratégias mapeadas com precisão de navegação estelar</p>
+                    <ul class="solution-features">
+                        <li>Análise Profunda de Mercado</li>
+                        <li>Roadmap Estratégico</li>
+                        <li>Transformação Digital 360°</li>
+                    </ul>
+                </div>
+
+                <div class="solution-card">
+                    <div class="solution-bg"></div>
+                    <div class="solution-icon">⚡</div>
+                    <h3>Cloud & DevOps</h3>
+                    <p>Infraestrutura que sustenta missões críticas com confiabilidade orbital</p>
+                    <ul class="solution-features">
+                        <li>Arquitetura Escalável</li>
+                        <li>CI/CD Automatizado</li>
+                        <li>Monitoramento 24/7</li>
+                    </ul>
+                </div>
+
+                <div class="solution-card">
+                    <div class="solution-bg"></div>
+                    <div class="solution-icon">🎯</div>
+                    <h3>UX/UI Design</h3>
+                    <p>Interfaces que conectam humanos e tecnologia como portais dimensionais</p>
+                    <ul class="solution-features">
+                        <li>Research & Prototipagem</li>
+                        <li>Design System Completo</li>
+                        <li>Testes de Usabilidade</li>
+                    </ul>
+                </div>
+
+                <div class="solution-card">
+                    <div class="solution-bg"></div>
+                    <div class="solution-icon">🛡️</div>
+                    <h3>Segurança Digital</h3>
+                    <p>Proteção de nível militar para seus dados navegarem seguros pelo cosmos</p>
+                    <ul class="solution-features">
+                        <li>Penetration Testing</li>
+                        <li>Criptografia Avançada</li>
+                        <li>Compliance & Auditoria</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lead Form Section -->
+    <section id="lead-form" class="lead-section">
+        <div class="container">
+            <div class="lead-wrapper">
+                <div class="lead-info">
+                    <h2>Pronto Para Decolar?</h2>
+                    <p class="lead-intro">Inicie sua jornada rumo ao futuro digital. Nossa equipe de especialistas está pronta para transformar sua visão em realidade.</p>
+
+                    <div class="lead-benefits">
+                        <div class="benefit-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22 4 12 14.01 9 11.01"/>
+                            </svg>
+                            <span>Consultoria gratuita de 30 minutos</span>
+                        </div>
+                        <div class="benefit-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22 4 12 14.01 9 11.01"/>
+                            </svg>
+                            <span>Proposta personalizada em 24h</span>
+                        </div>
+                        <div class="benefit-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22 4 12 14.01 9 11.01"/>
+                            </svg>
+                            <span>Análise técnica do seu projeto</span>
+                        </div>
+                        <div class="benefit-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22 4 12 14.01 9 11.01"/>
+                            </svg>
+                            <span>Suporte dedicado sem compromisso</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lead-form-container">
+                    <form class="lead-form" id="leadForm">
+                        <h3>Solicite Contato</h3>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Nome Completo</label>
+                            <span class="form-bar"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">E-mail Profissional</label>
+                            <span class="form-bar"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" required>
+                            <label for="phone">Telefone/WhatsApp</label>
+                            <span class="form-bar"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" id="company" name="company">
+                            <label for="company">Empresa</label>
+                            <span class="form-bar"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected></option>
+                                <option value="web">Desenvolvimento Web</option>
+                                <option value="mobile">Aplicativos Mobile</option>
+                                <option value="consulting">Consultoria Digital</option>
+                                <option value="cloud">Cloud & DevOps</option>
+                                <option value="design">UX/UI Design</option>
+                                <option value="security">Segurança Digital</option>
+                            </select>
+                            <label for="service">Serviço de Interesse</label>
+                            <span class="form-bar"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                            <label for="message">Descreva seu projeto</label>
+                            <span class="form-bar"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span>Enviar Mensagem</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="22" y1="2" x2="11" y2="13"/>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                            </svg>
+                        </button>
+
+                        <p class="form-privacy">🔒 Seus dados estão protegidos com criptografia de nível espacial</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <svg class="logo-icon" viewBox="0 0 50 50" fill="none">
+                            <circle cx="25" cy="25" r="20" stroke="currentColor" stroke-width="2"/>
+                            <path d="M25 15 L25 35 M15 25 L35 25" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="25" cy="25" r="3" fill="currentColor"/>
+                        </svg>
+                        <span class="logo-text">Mr<span class="logo-accent">Space</span></span>
+                    </div>
+                    <p>Explorando o infinito digital com tecnologia de ponta e inovação constante.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="GitHub">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navegação</h4>
+                        <ul>
+                            <li><a href="#home">Início</a></li>
+                            <li><a href="#mission">Missão</a></li>
+                            <li><a href="#technology">Tecnologia</a></li>
+                            <li><a href="#solutions">Soluções</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Soluções</h4>
+                        <ul>
+                            <li><a href="#solutions">Desenvolvimento Web</a></li>
+                            <li><a href="#solutions">Apps Mobile</a></li>
+                            <li><a href="#solutions">Consultoria</a></li>
+                            <li><a href="#solutions">Cloud & DevOps</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Contato</h4>
+                        <ul>
+                            <li><a href="mailto:contact@mrspace.tech">contact@mrspace.tech</a></li>
+                            <li><a href="tel:+5511999999999">+55 (11) 99999-9999</a></li>
+                            <li><a href="contact.html">Formulário de Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 MrSpace. Todos os direitos reservados.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacidade</a>
+                    <a href="#">Termos de Uso</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- GSAP Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
